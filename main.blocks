@@ -1,13 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="LzPv+qnr9eO:9)Yk1e5g" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id=";Mc;H-lNJuMzg]|oD]rm"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="fGYWa-G(VSB$vIo7-pgW" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="TK_utyRCC]6osn({:e2h"><field name="LEDS">`
         . . # . . 
         . # . # . 
         # . . . # 
         . # . # . 
         . . # . .
-        `</field><next><block type="controls_repeat_ext" id="wvCu_.`Kmc*2p`?s@FA("><value name="TIMES"><shadow type="math_whole_number" id="3SMdj.u2B[,Qgr#5=1wT"><field name="NUM">2</field></shadow></value><statement name="DO"><block type="device_print_message" id="XaPgZ~la/q+ioa]i%XKA"><value name="text"><shadow type="text" id="ozP|IapI]eHq*ag;w6tp"><field name="TEXT">ABCDEFGHIJKLMNOPQRSTUVWXYZ</field></shadow></value></block></statement><next><block type="device_show_leds" id="Fl%Pm%]oVuc=?Io{F}!2"><field name="LEDS">`
+        `</field><next><block type="playMelody" id="DJis%K$JTM,cu((LdT5E"><value name="melody"><shadow type="melody_editor" id="w}_8y}7P9C?U_$zo#!W~"><field name="melody">"E - E - E - E - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="=rB=G(mq-UgM#f.vn3aI"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_pause" id="Kq4Lo6y2mX*lotHL|~1a"><value name="pause"><shadow type="timePicker" id="*MsI.N5p`Rh,uexQ7c7u"><field name="ms">2000</field></shadow></value><next><block type="controls_repeat_ext" id="?a8oW3ma2/w%0y.E[U3i"><value name="TIMES"><shadow type="math_whole_number" id="Rli^O=k%Dv@a08~(3!Id"><field name="NUM">2</field></shadow></value><statement name="DO"><block type="device_print_message" id="UB1o!mwe|]WzE7cl#Y/I"><value name="text"><shadow type="text" id="u9TV*PV4QmPw]}43g,$k"><field name="TEXT">This is a important message I am sending to you.</field></shadow></value><next><block type="device_show_leds" id="wKXCs}Y7G?;Sy$Nuvnb}"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        . . # . . 
+        # . . . # 
+        . # . # .
+        `</field><next><block type="device_play_note" id="t@mJ+d(_e/_ynVR[(`C@"><value name="note"><shadow type="device_note" id="H#.awV5s?5Tn[fQHEC6U"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="Gm2UEqr@nME)obw2k+re"><field name="fraction">BeatFraction.Eighth</field></shadow></value></block></next></block></next></block></statement><next><block type="device_show_leds" id="ctopq38GT1j(WyyXvh2="><field name="LEDS">`
         # . . . # 
         . # # # . 
         . # . # . 
         . # # # . 
         # . . . #
-        `</field></block></next></block></next></block></statement></block></xml>
+        `</field><next><block type="playMelody" id="l_RmwA^FECYPRI:O5(t_"><value name="melody"><shadow type="melody_editor" id="!Kc?u(v_xq7a%7[z]Yy;"><field name="melody">"E - E - E - E - "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id=";I?~c_$]D9Bc}ell#Ked"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_clear_display" id="!(4){(_uR^$oz4431nK$"/></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
